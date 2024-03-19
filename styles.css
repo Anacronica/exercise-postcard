@@ -1,0 +1,63 @@
+body {
+	background: black;
+	font-family: "Comic Sans MS";
+}
+
+/*eliminar lineas al terminar
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+eliminar lineas al terminar*/
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 330px;
+	margin: 3px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: none;
+}
+
+.body-left,
+.body-right {
+	padding: 1em;
+	font-size: 80%;
+}
+
+input {
+	color: gray;
+	border: none;
+	border-bottom: 1px solid;
+	font-family: "Comic Sans MS";
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: darkgray;
+	padding: 5px;
+	font-family: "Comic Sans MS";
+}
